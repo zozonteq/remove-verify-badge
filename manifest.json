@@ -3,6 +3,10 @@
     "version": "3",
     "manifest_version": 3,
     "description": "",
+    "icons": {
+      "128": "icon-128.png",
+      "16":"icon-16.png"
+    },
     "content_scripts": [{
       "matches": ["*://twitter.com/*"],
       "js": [
