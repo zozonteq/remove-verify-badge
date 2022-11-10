@@ -1,0 +1,12 @@
+{
+    "name": "Remove Certification Badge for Twitter",
+    "version": "3",
+    "manifest_version": 3,
+    "description": "",
+    "content_scripts": [{
+      "matches": ["*://twitter.com/*"],
+      "js": [
+        "index.js"
+      ]
+    }]
+  }
