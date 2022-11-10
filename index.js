@@ -5,7 +5,15 @@ const clean = () =>{
     }
 }
 window.onload = function() {
-    setInterval(() => {
+    const config = { 
+        attributes: true, 
+        childList: true, 
+        subtree:true
+    };
+    const observer = new MutationObserver(function(){
         clean();
-    }, 1000);
+    });
+    observer.observe(document.body,config)
 };
+
+
