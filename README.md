@@ -1,4 +1,5 @@
 # remove-verify-badge
+![BANNER](images/Banner.png)
 ツイッターの認証バッジを消すブラウザ拡張機能です。
 # インストール
 1. [拡張機能](https://github.com/zozonteq/remove-verify-badge/archive/refs/heads/main.zip) をダウンロードし、解凍します。  
