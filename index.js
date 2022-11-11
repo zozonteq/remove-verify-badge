@@ -10,10 +10,8 @@ const isOfficialAccount = (elem) => {
 }
 const clean = (callback) => {
     let elem = callback.querySelectorAll(svgQuery);
-    console.log(elem);
     for (let i = 0; i < elem.length; i++) {
         if (!isOfficialAccount(getUserNameElem(elem[i]))) {
-            console.log("remove");
             elem[i].closest('svg').remove()
         }
     }
