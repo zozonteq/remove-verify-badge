@@ -17,7 +17,7 @@ const isOfficialAccount = (innerHTML) => {
     }
 }
 const clean = () => {
-    x = document.getElementsByTagName("path")
+    let x = document.getElementsByTagName("path")
     for (i = 0; i < x.length; i++) {
         if (isVerifyIcon(x[i])) {
             if (isOfficialAccount(x[i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.innerHTML)) {
