@@ -1,6 +1,6 @@
 {
     "name": "Remove Verify Badge for Twitter",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "manifest_version": 3,
     "description": "This is a browser extension that removes the verify badge on Twitter.",
     "icons": {
