@@ -2,6 +2,10 @@
 ![BANNER](images/Banner.png)
 ツイッターブルーの認証バッジを非表示にするブラウザ拡張機能です。  
 > **注** 公式アカウントは除外されます。
+# 動作環境
+```
+OS
+```
 # インストール
 1. [拡張機能](https://github.com/zozonteq/remove-verify-badge/archive/refs/heads/main.zip) をダウンロードし、解凍します。  
 2. ブラウザの拡張機能メニューを開きます。
