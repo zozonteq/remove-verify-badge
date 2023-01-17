@@ -1,7 +1,6 @@
 # remove-verify-badge
 ![BANNER](images/Banner.png)
 ツイッターブルーの認証バッジを非表示にするブラウザ拡張機能です。  
-> **注** 公式アカウントは除外されます。
 # 動作環境
 Google Chrome
 # インストール
